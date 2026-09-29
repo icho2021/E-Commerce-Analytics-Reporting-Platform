@@ -1,0 +1,13 @@
+{
+  "filter": "order_status = delivered",
+  "orders": 96478,
+  "unique_customers": 93358,
+  "gmv_items": 13221498.11001179,
+  "freight_total": 2198275.6400001515,
+  "payment_total": 15422461.769999051,
+  "aov": 137.0415857502414,
+  "items_per_order": 1.1421982213561641,
+  "avg_review_score": 4.156186520855942,
+  "on_time_delivery_rate": 0.9188763346117964,
+  "repeat_customer_rate": 0.03000278497825575
+}

@@ -1,0 +1,25 @@
+# Environments
+.venv/
+.mplconfig/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets
+.env
+
+# Editor
+.vscode/
+.DS_Store
+
+# Source data: nine Kaggle CSVs, about 120 MB.
+# Not redistributed here. See README for the download link.
+data/
+
+# Generated lake: rebuilt by `python -m src.run_pipeline --skip-s3`
+lake/
+*.duckdb
+
+# Tracked on purpose, listed here so the intent is visible:
+#   output/*.png   charts referenced by docs/insights.md
+#   output/*.json  the numbers those charts and the write-up quote
